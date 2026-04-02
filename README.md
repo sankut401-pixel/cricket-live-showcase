@@ -25,5 +25,20 @@ This repository is a *public showcase* only.
 - Auth: JWT (SimpleJWT)
 - Deployment: Railway (web + worker) + Postgres + Redis
 
+## Screenshots
+
+### Live Summary
+![Live Summary](./screenshot/1000004182.jpg)
+
+### Scorecard
+![Scorecard Innings 1](./screenshot/1000004183.jpg)
+![Scorecard Innings 2](./screenshot/1000004184.jpg)
+
+### Commentary
+![Commentary](./screenshot/1000004185.jpg)
+
+### Admin Panel
+![Admin Panel](./screenshot/1000004186.jpg)
+
 ## Demo
 Demo build and walkthrough available on request.
