@@ -1,12 +1,18 @@
-👉 Built a real-time match tracking system with dynamic state updates and live score rendering.
-
 # Live Cricket Scoreboard
 
 Real-time cricket scoring infrastructure for local matches, with live score rendering, match-state tracking, ball-by-ball updates, and an admin scoring workflow designed for fast, reliable in-game operation.
 
-## Live Demo
+## At A Glance
 
-Public demo link coming soon.
+- Product: Real-time cricket live scoring system for local matches
+- Platform: Flutter client with Django realtime backend
+- Focus Areas: Live score, commentary, scorecard, ball-by-ball admin scoring
+- Stack: Flutter, Django, Channels, Redis, PostgreSQL
+
+## Demo
+
+- Video walkthrough: [Google Drive Demo](https://drive.google.com/file/d/1ZMcGdUs-5jqlcAdYOaXq0V2jyf5wAIo0/view?usp=drive_link)
+- UI walkthrough: See screenshots below
 
 ## Overview
 
@@ -14,7 +20,7 @@ Live Cricket Scoreboard is a production-style real-time scoring system built to 
 
 This showcase repository presents the product, architecture, and UI experience without exposing private source code or operational secrets.
 
-## Features
+## Key Features
 
 - Real-time live score updates powered by WebSocket-based event delivery
 - Dynamic match-state tracking across innings, overs, wickets, target, and result progression
@@ -51,6 +57,10 @@ This showcase repository presents the product, architecture, and UI experience w
 ### Deployment
 
 - Render configuration for web service, background worker, Redis, and PostgreSQL
+
+## Architecture
+
+See [ARCHITECTURE.md](./ARCHITECTURE.md) for the high-level product and system design.
 
 ## Screenshots
 
@@ -106,3 +116,11 @@ This showcase repository presents the product, architecture, and UI experience w
 ## Repository Scope
 
 This repository is a public-facing showcase for the product. It includes documentation and UI previews, while the private application code and deployment credentials are intentionally excluded.
+
+- No source code
+- No secrets or environment files
+- No production credentials
+
+## Portfolio Note
+
+This repository is optimized for portfolio, recruiter, and client review. It highlights the product experience, engineering direction, and system design while keeping the production application private.
